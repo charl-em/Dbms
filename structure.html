@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="Css/design.css">
+    <link rel="stylesheet" href="w3.css">
+    <title>Qu'est ce qu'un DBMS ?</title>
+</head>
+<body>
+    <div class="w3-container">
+        <div class="w3-container">
+            <img src="Css/Imgs/dbms.jpg">
+            <p id="Sigle"><span class="w3-text-light-blue">D</span>ata<span class="w3-text-light-blue">B</span>ase <span class="w3-text-light-blue">M</span>anagement <span class="w3-text-light-blue">S</span>ystem</p>
+        </div>
+
+        <section class="w3-card-4 " style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q1 :</span> Qu'est ce qu'un <span class="str">DBMS </span>?</span><br>
+        <p>Un systéme de gestion de base de données ou DBMS en abrégé se référe à un logiciel de définition , de stockage , de récupération et de gestion de données de sorte qu'il soit le plus sécurisé possible.</p>
+        <div class="flex-container">
+            <img src="Css/Imgs/dbms_def.jpg">
+            <img src="Css/Imgs/data_def.png"> 
+        </div>
+        
+        </section><br><br>
+        <section class="w3-card-4" style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q2 :</span> Qu'est ce fait un <span class="str">DBMS </span>?</span><br>
+            <div class="flex-container">
+                <p>Le DBMS manage les données ; le moteur de base de données permet aux données d'etre accéder , fermées et modifiées ; 
+                    Le schéma de base de données définit la structure de la base de données. Le DBMS fournit une vue centralisé des données et qui peuvent etre accessibles par plusieurs utilisateurs , à tout lieu et de maniére controlée.
+                    Le DBMS permet aussi d'administrer de maniére uniforme les taches ainsi qu'une sauvegarde des données . Il s'occupe de gérer toutes requetes .
+                </p>
+                <img src="Css/Imgs/features.png">
+            </div>
+            
+        </section><br><br>
+        <section class="w3-card-4" style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q3 :</span> Quels sont les composants d'un <span class="str">DBMS </span>?</span><br>
+            <p>Un systéme de gestion de base de données est un sysyéme sophistiqué qui consiste à un emsemble de composants intégrés qui permet d'obtenir un environnement pour créer , accéder et modifier les bases de données .
+                Cela inclut les composants suivants : <br>- Le moteur de stockage <br> - Le catalogue de metadonnées <br> - Le langage d'accés à la base de données <br> - Le gestionnaire d'accés et de log <br> - L'utilitaire de données.
+            </p>
+        </section><br><br>
+
+        <section class="w3-card-4" style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q4 :</span> Pourquoi apprendre un <span class="str">DBMS </span>?</span><br>
+            <div class="flex-container">
+                <div>
+                    <p>Traditionnellement les données sont organisés dans des fichiers. Le DBMS apparait comme un nouveau concept qui à été créer pour surpasser les insuffissances de cette gestion classique.
+                        Un DBMS moderne a donc les charactéristiques suivantes : <br>Des entités du monde réel , des relations basées sur des tables , l'isolation entre les données et l'application , la réduction de la répétition , la consistance et un langage de requetes.
+                        <br>Un systeme de gestion de base de données suit également les critéres de performances suivants : <br>
+                    </p>
+                    <ul>
+                        <li>La méthode A.C.I.D (Atomicité , Consistance , Isolation et Durabilité). Elle permet au systeme d'avoir un forme correcte quelque soit l'environnement.</li>
+                        <li>Multi-utilisateurs et dégré d'accés : On met en paralléle l'accés et la manipulation des données.</li>
+                        <li>Des Vues multiples en fonction des besoins de l'utilisateur</li>
+                        <li>Sécurité , l'accés à certaines données est autorisé en fonction du type d'utilisateurs</li>
+                    </ul>
+                </div>
+                <img src="Css/Imgs/why_dbms.png">
+            </div>
+            
+        </section><br><br>
+
+        <section class="w3-card-4" style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q5 :</span> Historique des <span class="str">DBMS </span>?</span><br>
+            <p>Le 1<sup>er</sup> DBMS a été crée dans le début des années 1960 avec un DBMS navigationnel IBS. Peu de temps aprés IBM développa IMS , un DBMS hiérarchique , qui est toujours utilisé par de grandes compagnies aujourd'hui. En 1971 IDMS est crée grace à la conférence CODASYL. Cela entraina le succes des RDBMS jusqu'a Oracle en 1979. En 1990 des DBMS NoSQL avec l'avénement de l'orienté-objet voir le jour.
+            De nos jours le marché est toujours dominé par les RDBMS cependant les NoSql DBMS continue de gagner en popularité.
+            </p>
+        </section><br><br>
+
+        <section class="w3-card-4" style="width:90%;"><ins></ins><span class="w3-text-light-blue" class="q1"><span class="q1_it">Q6 :</span> SQL vs NoSQL + Quelques exemples ?</span><br>
+            <div class="flex-container">
+                <ol>
+                    <li>Les bases de données SQL sont relationnelles, NoSQL ne sont pas relationnelles.</li>
+                    <li>Les bases de données SQL utilisent un langage de requête structuré et ont un schéma prédéfini. Les bases de données NoSQL ont des schémas dynamiques pour les données non structurées.</li>
+                    <li>Les bases de données SQL sont évolutives verticalement, les bases de données NoSQL sont évolutives horizontalement.</li>
+                    <li>Les bases de données SQL sont basées sur des tables, tandis que les bases de données NoSQL sont des magasins de documents, de valeurs-clés, de graphiques ou de colonnes larges.</li>
+                    <li>Les bases de données SQL sont meilleures pour les transactions multi-lignes, NoSQL sont meilleures pour les données non structurées comme les documents ou JSON.</li>
+                </ol>
+                <img src="Css/Imgs/model_dbms.png"> 
+            </div>
+            
+        </section><br><br>
+
+        <section class="w3-card-4" style="width:90%;">
+            <div class="flex-container">
+                <img src="Css/Imgs/adv_dbms.png">
+                <img src="Css/Imgs/dis_dbms.png"> 
+            </div>
+            <img src="Css/Imgs/why_dbms.png"> 
+        </section><br><br>
+        <img src="Css/Imgs/Summary_dbms.png" style="width: 50%;">
+    </div>
+    
+
+    
+</body>
+</html>
