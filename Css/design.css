@@ -1,0 +1,52 @@
+body{
+    font-size: 2em;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.75em;
+  }
+#Sigle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: - 1.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.3em;
+}
+section{
+    margin-left: 5em;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    padding: 0.5em ;
+    margin-top: -1.5em;
+}
+.q1{
+    font-size: 1.2em;
+}
+.q1_it{
+    font-style: oblique;
+}
+.str{
+    font-weight: bolder;
+}
+p{
+    text-align: justify;
+}
+#q2{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+#q2_it{
+    font-style: oblique;
+}
+#str2{
+    font-weight: bolder;
+}
