@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille sur Sql</title>
+    <link rel="stylesheet" href="w3.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <div>
+            <h1 class="display-1 text-center w3-text-blue"><strong>LE LANGAGE SQL</strong></h1>
+        </div>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Définition</strong></u></h3>
+        SQL ou ” Structured Query Language ” est le langage déclaratif le plus populaire permettant de manipuler les données et les systèmes de bases de données relationnelles , l n'est donc pas a proprement parlé un langage de
+        programmation, mais plutôt une interface standard pour accéder aux bases de données.. Ce langage permet principalement de communiquer avec les bases de données afin de gérer les données qu’elles contiennent.
+        Il permet notamment de stocker, de manipuler et de retrouver ces données. Il est aussi possible d’effectuer des requêtes, de mettre à jour les données, de les réorganiser, ou encore de créer et de modifier le schéma et la structure d’un système de base de données , ainsi que de contrôler l’accès à ses données.
+        <br><ul>Elle est composée de 4 parties : 
+            <li>La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, de modifier ou de supprimer des données dans les bases de données relationnelles.</li>
+            <li>le langage de définition des données permet de créer et de modifier l'organisation des données dans la base de données</li>
+            <li>le langage de contrôle de transaction permet de commencer et de terminer des transactions</li>
+            <li>le langage de contrôle des données permet d'autoriser ou d'interdire l'accès à certaines données à certaines personnes.</li>
+        </ul> 
+        
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>L'histoire de SQL</strong></u></h3>L’histoire de SQL commence en 1969, lorsque le chercheur d’IBM Edgar F.Codd définit le modèle de base de données relationnelle. Ce modèle repose sur l’association de ” clés ” avec diverses données. Par exemple, un nom d’utilisateur peut être associé à un vrai nom et à un numéro de téléphone.
+
+        Quelques années plus tard, IBM crée un langage pour les systèmes de gestion de bases de données relationnelles en se basant sur les travaux de Codd. Ce langage s’appellera d’abord SEQUEL, pour ” Structured English Query Language “. Après plusieurs implémentations et révisions, il s’appellera finalement SQL.
+        
+        Les tests débutent en 1978, puis IBM commence à développer des produits commerciaux comme SQL/DS en 1981 et DB2 en 1983. D’autres vendeurs suivront, comme Sybase, Ingres, ou Oracle qui lance son premier produit en 1979.
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Pourquoi une entreprise a besoin de SQL et des bases de données?</strong></u></h3>
+    Il peut rationaliser la plupart des tâches RH, automatiser les tâches routinières et accélérer le traitement des données telles que les heures de travail du personnel, les congés, les
+    avantages sociaux, la paie, etc. Cela peut vous laisser plus de temps pour vous concentrer sur la croissance de votre entreprise.<br>
+    Connaître les enjeux, les limites, les avantages et les écueils des bases de données  permet aux futurs responsables et chefs de projets de faire de meilleurs cahier des charges, d'avoir des attentes raisonnables et de mieux piloter les projets sous leurs responsabilités.
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Quels sont les apports du langage SQL au niveau du développement de logiciels ?</strong></u></h3>
+        Le succès du langage SQL est dû essentiellement à sa simplicité et au fait qu'il s'appuie sur le schéma conceptuel pour énoncer des requêtes en laissant le SGBD responsable de la stratégie d'exécution. Le langage SQL propose un langage de requêtes ensembliste et assertionnel.
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Comment fonctionne SQL ?</strong></u></h3>Les applications peuvent être programmées avec différents langages comme Python, PHP ou Ruby. En revanche, historiquement, les bases de données ne comprennent pas ces langages. Jusqu’à récemment, elles ne comprenaient que SQL (même si les choses ont beaucoup changé au fil des dernières années).
+    C’est la raison pour laquelle l’apprentissage de SQL est indispensable pour travailler dans les domaines du développement d’applications ou du développement web. Avant de pouvoir l’utiliser, il est nécessaire d’apprendre son ” markup ” ou balisage en Français.
+    Ceci est valable pour tous les langages de programmation.<br> En revanche, SQL présente une caractéristique unique qui le distingue des autres langages : le concept des tableaux.
+    En effet, une base de données est constituée de tableaux. Chacun de ces tableaux est composé de colonnes et de lignes, et représente un ensemble de données. Ainsi, SQL permet de créer ou de manipuler des tableaux.
+    Plusieurs commandes SQL sont fréquemment utilisées pour travailler avec les bases de données. Par exemple, ” CREATE DATABASE ” permet de créer une base de données.
+    <br>Plus la base de données est complexe, plus l’utilisateur devra utiliser de commandes.
+    Ces commandes permettent d’écrire des ” requêtes ” pour manipuler les données dans les bases de données. Le système interprète et traite ces commandes, par exemple pour créer un nouvel enregistrement dans une base de données.
+    La même information doit être stockée une seule fois. Les informations doivent pouvoir être accessibles par plusieurs personnes à la fois en même temps. Les données doivent être protégées contre les erreurs et contre les accès non autorisés.
+    <br><br>Plus en détail les instructions SQL couvrent 4 domaines : Le langage de définition de données, le langage de manipulation de données, le langage de contrôle de données, le langage de contrôle des transactions et le langage de manipulation de données
+    <br>Les instructions de manipulation du contenu de la base de données commencent par les mots clés SELECT, UPDATE, INSERT ou DELETE qui
+    correspondent respectivement aux opérations de recherche de contenu, modification, ajout et suppression.
+    Divers autres mots-clés tels que FROM, JOIN et GROUP BY permettent d'indiquer les opérations d'algèbre relationnelle à effectuer en vue d'obtenir le
+    contenu à manipuler.
+    <br>Les instructions de manipulation des métadonnées - description de la structure, l'organisation et les caractéristiques de la base de données -
+    commencent avec les mots-clés CREATE, ALTER, DROP, RENAME, COMMENT ou TRUNCATE qui correspondent aux opérations d'ajouter, modifier,
+    supprimer, renommer, commenter ou vider une métadonnée. Ces mots clés sont immédiatement suivis du type de métadonnée à manipuler - TABLE,
+    VIEW, INDEX...
+    <br>Les instructions de contrôle de données et langage de contrôle des transactions : Les mots clés GRANT et REVOKE permettent d'autoriser des opérations à certaines personnes, d'ajouter ou de supprimer des autorisations. Tandis que les mots clés COMMIT et ROLLBACK permettent de confirmer ou annuler l'exécution de transactions.
+    La syntaxe de SQL fait l'objet de la norme ISO 9075. Cette norme laisse la possibilité aux producteurs de SGBD d'y ajouter des instructions spécifiques
+    et non normalisées. La norme a évolué au cours des années en vue de s'adapter aux demandes, et les éditeurs de SGBD ont souvent ajouté des
+    possibilités à leurs produits avant que celles-ci fassent objet de normes , ce qui provoque des variations dans la compréhension et l'interprétation qui
+    est faite d'un code source en SQL par les différents logiciels de SGBD . Ces différences font qu'un code source écrit sans précautions pour un SGBD
+    donné ne fonctionnera pas forcément avec un autre SGBD.<br><br>
+    <h3 class="w3-text-light-blue">Les 5 méthodes les plus utiles</h3>
+    <ul type="I">A) CREATE TABLE</ul>
+    <li>La première méthode que vous serez amené à utiliser est CREATE TABLE. En
+        effet, il s’agit de la syntaxe permettant, comme son nom l’indique, de créer une
+        table.
+        Pour effectuer une telle opération, il faut tout d’abord préciser le nom de la
+        table, ainsi que le nom et le type des colonnes que l’on souhaite lui attribuer.
+    </li><br>
+    <ul type="I">B) SELECT … FROM ...</ul>
+    <li>Il s’agit certainement de la méthode la plus utilisée. C’est celle qui nous permet
+        de sélectionner une colonne à partir d’une table.
+        Il faut préciser les colonnes que l’on souhaite sélectionner après “SELECT” et
+        dans quel table chercher après “FROM”.
+    </li><br>
+    <ul type="I">C) WHERE</ul>
+    <li>Comme on a pu le voir, SELECT permet de sélectionner toutes les lignes d’une
+        colonne. WHERE permet de préciser quelles lignes on souhaite sélectionner
+        ou non au sein de cette colonne.
+        Ainsi, on utilise WHERE après un SELECT … FROM … en explicitant la condition
+        qui fait que l’on sélectionne une ligne et pas une autre.
+    </li><br>
+    <ul type="I">D) FULL JOIN … ON ...</ul>
+    <li>On peut  tirer des informations de deux tables à la fois.
+    Pour cela, il est possible d’utiliser la méthode FULL JOIN … ON …. Cette
+    dernière s’utilise avec après un SELECT … FROM … On précise tout d’abord les
+    deux tables à joindre, puis les colonnes qui entretiennent une relation.
+    Il existe d’autres types d’unions (LEFT UNION, RIGHT UNION, INNER JOIN) permettant de conserver ou non les lignes contenant des valeurs manquantes qui peuvent être problématiques.
+    </li>
+    <br>
+    <ul type="I">E) GROUP BY</ul>
+    <li>Nous savons désormais comment fusionner plusieurs tables, mais il est parfois
+        utile au contraire de réduire une table pour ne conserver que les informations
+        essentielles. Par exemple, il peut-être préférable d’afficher une moyenne plutôt
+        qu’un grand nombre de lignes pour des questions de lisibilités.
+        GROUP BY s’utilise après un SELECT… FROM …. On précise alors le nom de la
+        colonne sur laquelle on souhaite regrouper les données. Cependant, pour
+        réaliser une opération comme une moyenne, une somme… Il est nécessaire de
+        le préciser après le SELECT.
+    </li>
+    </p>
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Qu'est-ce qu'une clé primaire en SQL ?</strong></u></h3>
+    Dans une base de données relationnelle, une clé primaire partage les mêmes caractéristiques qu'un identifiant : elle est la donnée qui permet d'identifier de manière unique un enregistrement dans une table. Une clé primaire peut être composée d'une ou de plusieurs colonnes de la table.
+    elle est obligatoire et permet d'accélérer les opérations sur la table (via les indexes). Par
+    convention, les clés primaires sont toujours représentées soulignées.
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Quels sont les systèmes de bases de données SQL les plus populaires ?</strong></u></h3>
+        Un système de base de données est un programme permettant à un développeur de travailler avec une base de données par le biais d’une interface utilisateur. Ceci permet de manipuler les bases de données de manière plus intuitive, notamment grâce à des templates préconçus et des outils de building.
+        Ces différents outils simplifient la vie du programmeur de base de données en automatisant les tâches les plus communes comme le nettoyage du système. Il en existe un grand nombre.
+        <p>Enfin, PostgreSQL est le principal concurrent de MySQL. Il s’agit là encore d’un système de base de données open source, utilisé par de nombreuses startups pour sa gratuité. Ce système est compatible avec tous les principaux OS tels que macOS, Windows et Linux. Contrairement à d’autres systèmes comme SQL Server, PostgreSQL met un point d’honneur à suivre la syntaxe SQL standard ce qui facilite grandement son apprentissage.</p>
+    </p>
+    <p class="lead"><h3 class="w3-text-light-blue"><u><strong>Quels sont les inconvénients d'une base de données ?</strong></u></h3>
+        <ul>
+            <li>un investissement de départ relativement plus
+            coûteux (incluant les coûts supplémentaires pour
+            le matériel)</li>
+            <li>plutôt moins efficace pour les logiciels spéciaux.</li>
+            <li>nécessite des employés qualifiés (administrateurs
+            de bases de données)</li>
+        </ul>
+    </p>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-large w3-padding w3-right">  
+        <p>Happily made by<a href="index.html" target="_blank" style="text-decoration: none;"> <span class="w3-text-blue">me</span></a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+
+</html>
